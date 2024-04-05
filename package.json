@@ -1,11 +1,11 @@
 {
-  "name": "template_vite-vanilla-js",
+  "name": "psychabiliti",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "cross-env BUILD_TYPE=dev vite build --base=/template_vite-vanilla-js/",
+    "build": "cross-env BUILD_TYPE=dev vite build --base=/psychabiliti/",
     "preview": "vite preview"
   },
   "browsersList": [
