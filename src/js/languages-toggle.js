@@ -15,11 +15,11 @@ const baseName = getBaseName();
 
 console.log(baseName);
 
-const allLangs = ['ua', 'en'];
+const allLangs = ['uk', 'en'];
 
 // =========== Get User choised language ===========
 let currentLang =
-  localStorage.getItem('user-lang') || checkBrowserLang() || 'ua';
+  localStorage.getItem('user-lang') || checkBrowserLang() || 'uk';
 let currentText = {};
 
 // =========== Set active button lang and starting language ===========
@@ -34,13 +34,13 @@ changeLang();
 languagesBtnEl.addEventListener('click', toggleLang);
 
 function toggleLang() {
-  if (currentLang === 'ua') {
+  if (currentLang === 'uk') {
     currentLang = 'en';
 
     htmlEl.setAttribute('lang', 'en');
   } else {
-    currentLang = 'ua';
-    htmlEl.setAttribute('lang', 'ua');
+    currentLang = 'uk';
+    htmlEl.setAttribute('lang', 'uk');
   }
 
   localStorage.setItem('user-lang', currentLang);
