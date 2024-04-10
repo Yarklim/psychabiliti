@@ -10,6 +10,8 @@ body {
   line-height: 1.25;
   color: var(--main-color);
 
+  background: var(--body-background);
+
   scroll-behavior: smooth;
 }
 
@@ -28,8 +30,6 @@ body {
 
 .main {
   flex-grow: 1;
-
-  background-color: #50c750;
 }
 
 .section {

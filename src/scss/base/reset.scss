@@ -60,7 +60,6 @@ a:hover {
 }
 
 input,
-button,
 textarea,
 select {
   font-family: inherit;
@@ -68,6 +67,10 @@ select {
   line-height: inherit;
   color: inherit;
   background-color: transparent;
+}
+
+button {
+  all: unset;
 }
 
 button,

@@ -1,17 +1,97 @@
-<header class="container header">
-  <div class="header__logo">LOGO</div>
+<header class="header">
+  <!-- Header Top -->
+  <div class="container header__top--wrapper">
+    <h1 class="header__logo" lang="en">PSYCHABILITI</h1>
+
+    <!-- User Auth -->
+    <div class="header__user-action--wrapper">
+      <button class="user__auth--button">
+        <svg width="30" height="30" class="user-auth__icon">
+          <use href="/icons/sprite.svg#icon-user"></use>
+        </svg>
+      </button>
+
+      <!-- Languages -->
+      <button
+        class="header__language--btn"
+        aria-label="choise language"
+        data-language-btn
+      >
+        <picture class="header__language--img" data-language-img data-lang="en">
+          <source srcset="/images/ua-flag.webp" type="image/webp" />
+          <source srcset="/images/ua-flag.png" type="image/png" />
+          <img src="/images/ua-flag.png" alt="UA" width="30" height="30" />
+        </picture>
+        <picture class="header__language--img" data-language-img data-lang="ua">
+          <source srcset="/images/usa-flag.webp" type="image/webp" />
+          <source srcset="/images/usa-flag.png" type="image/png" />
+          <img src="/images/usa-flag.png" alt="UA" width="30" height="30" />
+        </picture>
+      </button>
+    </div>
+  </div>
+
+  <!-- Navigation -->
   <nav class="header__nav">
-    <ul class="header__nav--list">
+    <ul class="container header__nav--list">
       <li class="header__nav--item">
-        <a href="./index.html" class="header__nav-link">Home</a>
+        <a
+          href="index.html"
+          class="header__nav-link"
+          data-lang="nav-link-main"
+          aria-label="на Головну сторінку"
+          >Головна</a
+        >
       </li>
 
       <li class="header__nav-item">
-        <a href="./page-2.html" class="header__nav-link">Page 2</a>
+        <a
+          href="./team.html"
+          class="header__nav-link"
+          data-lang="nav-link-team"
+          aria-label="на секцію Команда"
+          >Команда</a
+        >
       </li>
 
       <li class="header__nav-item">
-        <a href="./page-3.html" class="header__nav-link">Page 3</a>
+        <a
+          href="./partnership.html"
+          class="header__nav-link"
+          data-lang="nav-link-partnership"
+          aria-label="на секцію Партнерство"
+          >Партнерство</a
+        >
+      </li>
+
+      <li class="header__nav-item">
+        <a
+          href="./news.html"
+          class="header__nav-link"
+          data-lang="nav-link-news"
+          aria-label="на секцію Новини"
+          >Новини</a
+        >
+      </li>
+
+      <li class="header__nav-item">
+        <a
+          href="./projects.html"
+          class="header__nav-link"
+          data-lang="nav-link-projects"
+          aria-label="на секцію Проєкти"
+          >Проєкти</a
+        >
+      </li>
+
+      <li class="header__nav-item">
+        <a
+          href="./contacts.html"
+          class="header__nav-link"
+          data-lang="nav-link-contacts"
+          aria-label="на секцію Контакти"
+          >Контакти</a
+        >
       </li>
     </ul>
   </nav>
