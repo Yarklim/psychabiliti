@@ -11,6 +11,9 @@ const htmlEl = document.querySelector('[data-html]');
 const languagesBtnEl = document.querySelector('[data-language-btn]');
 const languageImgEl = document.querySelectorAll('[data-language-img]');
 const currentPathName = window.location.pathname;
+const baseName = getBaseName();
+
+console.log(baseName);
 
 const allLangs = ['ua', 'en'];
 
@@ -56,23 +59,20 @@ function changeLang() {
 
 //   ============ Get current page path ============
 function checkPagePathName() {
-  if (currentPathName.includes('/psychabiliti')) {
-    currentPathName = currentPathName.replace('/psychabiliti', '');
-  }
   switch (currentPathName) {
-    case '/team.html':
+    case `${baseName}/team.html`:
       currentText = teamPageTexts;
       break;
-    case '/partnership.html':
+    case `${baseName}/partnership.html`:
       currentText = partnershipPageTexts;
       break;
-    case '/news.html':
+    case `${baseName}/news.html`:
       currentText = newsPageTexts;
       break;
-    case '/projects.html':
+    case `${baseName}/projects.html`:
       currentText = projectsPageTexts;
       break;
-    case '/contacts.html':
+    case `${baseName}/contacts.html`:
       currentText = contactsPageTexts;
       break;
     default:
@@ -86,4 +86,10 @@ function checkBrowserLang() {
   const result = allLangs.some(el => el === navLang);
 
   return result ? navLang : null;
+}
+
+// =============== Get basename ===============
+function getBaseName() {
+  const idx = currentPathName.lastIndexOf('/');
+  return currentPathName.slice(0, idx);
 }
