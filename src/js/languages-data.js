@@ -31,175 +31,175 @@ export const homePageTexts = {
 
 export const teamPageTexts = {
   'document-title': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Team',
   },
   'nav-link-main': {
-    ua: 'Головна',
+    uk: 'Головна',
     en: 'Main Page',
   },
   'nav-link-team': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Our Team',
   },
   'nav-link-partnership': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
   'nav-link-news': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
   'nav-link-projects': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
   'nav-link-contacts': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
   'team-hero-title': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Our Team',
   },
 };
 
 export const partnershipPageTexts = {
   'document-title': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
   'nav-link-main': {
-    ua: 'Головна',
+    uk: 'Головна',
     en: 'Main Page',
   },
   'nav-link-team': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Our Team',
   },
   'nav-link-partnership': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
   'nav-link-news': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
   'nav-link-projects': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
   'nav-link-contacts': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
   'partnership-hero-title': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
 };
 
 export const newsPageTexts = {
   'document-title': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
   'nav-link-main': {
-    ua: 'Головна',
-    en: 'Main Page',
+    uk: 'Головна',
+    ek: 'Main Page',
   },
   'nav-link-team': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Our Team',
   },
   'nav-link-partnership': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
   'nav-link-news': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
   'nav-link-projects': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
   'nav-link-contacts': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
   'news-hero-title': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
 };
 
 export const projectsPageTexts = {
   'document-title': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
   'nav-link-main': {
-    ua: 'Головна',
+    uk: 'Головна',
     en: 'Main Page',
   },
   'nav-link-team': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Our Team',
   },
   'nav-link-partnership': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
   'nav-link-news': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
   'nav-link-projects': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
   'nav-link-contacts': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
   'projects-hero-title': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
 };
 
 export const contactsPageTexts = {
   'document-title': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
   'nav-link-main': {
-    ua: 'Головна',
+    uk: 'Головна',
     en: 'Main Page',
   },
   'nav-link-team': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Our Team',
   },
   'nav-link-partnership': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
   'nav-link-news': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
   'nav-link-projects': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
   'nav-link-contacts': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
   'contacts-hero-title': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
 };

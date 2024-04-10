@@ -13,8 +13,6 @@ const languageImgEl = document.querySelectorAll('[data-language-img]');
 const currentPathName = window.location.pathname;
 const baseName = getBaseName();
 
-console.log(baseName);
-
 const allLangs = ['uk', 'en'];
 
 // =========== Get User choised language ===========
