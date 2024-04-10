@@ -16,7 +16,7 @@ const allLangs = ['ua', 'en'];
 
 // =========== Get User choised language ===========
 let currentLang =
-  localStorage.getItem('user-lang') || navigator.language.slice(0, 2) || 'ua';
+  localStorage.getItem('user-lang') || checkBrowserLang() || 'ua';
 let currentText = {};
 
 // =========== Set active button lang and starting language ===========
@@ -40,7 +40,6 @@ function toggleLang() {
     htmlEl.setAttribute('lang', 'ua');
   }
 
-  console.log(currentLang);
   localStorage.setItem('user-lang', currentLang);
   languageImgEl.forEach(img => img.classList.toggle('active-lang'));
   changeLang();
@@ -57,6 +56,7 @@ function changeLang() {
 
 //   ============ Get current page path ============
 function checkPagePathName() {
+  console.log(currentPathName);
   switch (currentPathName) {
     case '/team.html':
       currentText = teamPageTexts;
@@ -76,4 +76,12 @@ function checkPagePathName() {
     default:
       currentText = homePageTexts;
   }
+}
+
+// =============== Check browser language ============
+function checkBrowserLang() {
+  const navLang = navigator.language.slice(0, 2).toLowerCase();
+  const result = allLangs.some(el => el === navLang);
+
+  return result ? navLang : null;
 }
