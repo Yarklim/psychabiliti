@@ -1,30 +1,30 @@
 export const homePageTexts = {
   'document-title': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Home',
   },
   'nav-link-main': {
-    ua: 'Головна',
+    uk: 'Головна',
     en: 'Main Page',
   },
   'nav-link-team': {
-    ua: 'Команда',
+    uk: 'Команда',
     en: 'Our Team',
   },
   'nav-link-partnership': {
-    ua: 'Партнерство',
+    uk: 'Партнерство',
     en: 'Partnership',
   },
   'nav-link-news': {
-    ua: 'Новини',
+    uk: 'Новини',
     en: 'News',
   },
   'nav-link-projects': {
-    ua: 'Проєкти',
+    uk: 'Проєкти',
     en: 'Projects',
   },
   'nav-link-contacts': {
-    ua: 'Контакти',
+    uk: 'Контакти',
     en: 'Contacts',
   },
 };
