@@ -56,7 +56,9 @@ function changeLang() {
 
 //   ============ Get current page path ============
 function checkPagePathName() {
-  console.log(currentPathName);
+  if (currentPathName.includes('/psychabiliti')) {
+    currentPathName = currentPathName.replace('/psychabiliti', '');
+  }
   switch (currentPathName) {
     case '/team.html':
       currentText = teamPageTexts;
