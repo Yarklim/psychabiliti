@@ -106,7 +106,7 @@ export const newsPageTexts = {
   },
   'nav-link-main': {
     uk: 'Головна',
-    ek: 'Main Page',
+    en: 'Main Page',
   },
   'nav-link-team': {
     uk: 'Команда',
