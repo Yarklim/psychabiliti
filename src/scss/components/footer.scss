@@ -69,10 +69,10 @@
 }
 
 .footer__contacts--icon {
-  width: 30px;
+  width: clamp(1.25rem, 1.125rem + 0.63vw, 1.875rem); /* 20 - 30 */
   fill: var(--gray-light-color);
 
   &.mail {
-    width: 35px;
+    width: clamp(1.438rem, 1.288rem + 0.75vw, 2.188rem); /* 23 - 35 */
   }
 }
