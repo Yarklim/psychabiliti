@@ -9,8 +9,10 @@
 
     <meta name="description" content="PSYCHABILITI" />
     <meta name="keyword" content="PSYCHABILITI" />
-    <script type="module" crossorigin src="/psychabiliti/assets/languages-toggle-f4b04dca.js"></script>
-    <link rel="stylesheet" href="/psychabiliti/assets/languages-toggle-4d12b466.css">
+    <script type="module" crossorigin src="/psychabiliti/assets/vendor-05297bbf.js"></script>
+    <script type="module" crossorigin src="/psychabiliti/assets/swiper-75956515.js"></script>
+    <link rel="stylesheet" href="/psychabiliti/assets/swiper-ae8e2b3e.css">
+    <link rel="stylesheet" href="/psychabiliti/assets/vendor-0dce9c3c.css">
   </head>
   <body>
     <div class="page__wrapper">
@@ -42,7 +44,7 @@
         <picture class="header__language--img" data-language-img data-lang="uk">
           <source srcset="/psychabiliti/images/usa-flag.webp" type="image/webp" />
           <source srcset="/psychabiliti/images/usa-flag.png" type="image/png" />
-          <img src="/psychabiliti/images/usa-flag.png" alt="UA" width="30" height="30" />
+          <img src="/psychabiliti/images/usa-flag.png" alt="EN" width="30" height="30" />
         </picture>
       </button>
     </div>
@@ -117,93 +119,166 @@
 
       <!-- =============== Main ================ -->
       <main class="main">
-        <section class="section hero">
-  <div class="container hero__wrapper"></div>
+        <section class="hero">
+  <div class="hero__wrapper">
+    <div class="swiper slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide">
+          <img
+            src="/psychabiliti/images/health-1.jpg"
+            alt="slide-1"
+            class="slide__img"
+            width="1280"
+            height="620"
+          />
+        </div>
+        <div class="swiper-slide slide">
+          <img
+            src="/psychabiliti/images/health-2.jpg"
+            alt="slide-2"
+            class="slide__img"
+            width="1280"
+            height="620"
+          />
+        </div>
+        <div class="swiper-slide slide">
+          <img
+            src="/psychabiliti/images/happy-2.jpg"
+            alt="slide-3"
+            class="slide__img"
+            width="1280"
+            height="620"
+          />
+        </div>
+        <div class="swiper-slide slide">
+          <img
+            src="/psychabiliti/images/happy-3.jpg"
+            alt="slide-4"
+            class="slide__img"
+            width="1280"
+            height="620"
+          />
+        </div>
+      </div>
+
+      <!-- Swiper Navigation -->
+      <div class="slider-bottom">
+        <div class="slider-pagination">
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="slider-navigation">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
       </main>
 
       <!-- ============== Footer =============== -->
-      <footer class="footer">
+      <footer class="section footer">
   <div class="container footer__wrapper">
     <!-- Logo -->
-    <div class="footer__logo" lang="en">PSYCHABILITI</div>
+    <h2 class="footer__logo" lang="en">PSYCHABILITI</h2>
 
     <!-- Links -->
-    <div class="footer__links--wrapper">
-      <!-- Navigation -->
-      <nav class="footer__nav">
-        <ul class="container footer__nav--list">
-          <li class="footer__nav-item">
-            <a
-              href="./"
-              class="footer__nav-link"
-              data-lang="nav-link-main"
-              aria-label="на Головну сторінку"
-              >Головна</a
-            >
-          </li>
 
-          <li class="footer__nav-item">
-            <a
-              href="./team.html"
-              class="footer__nav-link"
-              data-lang="nav-link-team"
-              aria-label="на секцію Команда"
-              >Команда</a
-            >
-          </li>
+    <!-- Navigation -->
+    <nav class="footer__nav">
+      <ul class="footer__nav--list">
+        <li class="footer__nav-item">
+          <a
+            href="./"
+            class="footer__nav-link"
+            data-lang="nav-link-main"
+            aria-label="на Головну сторінку"
+            >Головна</a
+          >
+        </li>
 
-          <li class="footer__nav-item">
-            <a
-              href="./partnership.html"
-              class="footer__nav-link"
-              data-lang="nav-link-partnership"
-              aria-label="на секцію Партнерство"
-              >Партнерство</a
-            >
-          </li>
+        <li class="footer__nav-item">
+          <a
+            href="./team.html"
+            class="footer__nav-link"
+            data-lang="nav-link-team"
+            aria-label="на секцію Команда"
+            >Команда</a
+          >
+        </li>
 
-          <li class="footer__nav-item">
-            <a
-              href="./news.html"
-              class="footer__nav-link"
-              data-lang="nav-link-news"
-              aria-label="на секцію Новини"
-              >Новини</a
-            >
-          </li>
+        <li class="footer__nav-item">
+          <a
+            href="./partnership.html"
+            class="footer__nav-link"
+            data-lang="nav-link-partnership"
+            aria-label="на секцію Партнерство"
+            >Партнерство</a
+          >
+        </li>
 
-          <li class="footer__nav-item">
-            <a
-              href="./projects.html"
-              class="footer__nav-link"
-              data-lang="nav-link-projects"
-              aria-label="на секцію Проєкти"
-              >Проєкти</a
-            >
-          </li>
+        <li class="footer__nav-item">
+          <a
+            href="./news.html"
+            class="footer__nav-link"
+            data-lang="nav-link-news"
+            aria-label="на секцію Новини"
+            >Новини</a
+          >
+        </li>
 
-          <li class="footer__nav-item">
-            <a
-              href="./contacts.html"
-              class="footer__nav-link"
-              data-lang="nav-link-contacts"
-              aria-label="на секцію Контакти"
-              >Контакти</a
-            >
-          </li>
-        </ul>
-      </nav>
+        <li class="footer__nav-item">
+          <a
+            href="./projects.html"
+            class="footer__nav-link"
+            data-lang="nav-link-projects"
+            aria-label="на секцію Проєкти"
+            >Проєкти</a
+          >
+        </li>
 
-      <!-- Contacts -->
-      <div class="footer__contacts--wrapper">
-        <ul class="footer__contacts--list">
-          <li class="footer__contacts--item"></li>
-          <li class="footer__contacts--item"></li>
-          <li class="footer__contacts--item"></li>
-        </ul>
-      </div>
+        <li class="footer__nav-item">
+          <a
+            href="./contacts.html"
+            class="footer__nav-link"
+            data-lang="nav-link-contacts"
+            aria-label="на секцію Контакти"
+            >Контакти</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Contacts -->
+    <div class="footer__contacts--wrapper">
+      <h3 class="footer__contacts--title" data-lang="footer-contacts-title">
+        Контакти
+      </h3>
+
+      <ul class="footer__contacts--list">
+        <li class="footer__contacts--item">
+          <a href="#" class="footer__contacts--link" aria-label="to Watsapp">
+            <svg width="50" height="50" class="footer__contacts--icon">
+              <use href="/psychabiliti/icons/sprite.svg#icon-whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__contacts--item">
+          <a href="#" class="footer__contacts--link" aria-label="to Telegram">
+            <svg width="50" height="50" class="footer__contacts--icon">
+              <use href="/psychabiliti/icons/sprite.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__contacts--item">
+          <a href="#" class="footer__contacts--link" aria-label="to Mail">
+            <svg width="50" height="50" class="footer__contacts--icon mail">
+              <use href="/psychabiliti/icons/sprite.svg#icon-mail"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </footer>
