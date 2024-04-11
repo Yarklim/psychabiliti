@@ -51,6 +51,34 @@ export const homePageTexts = {
     uk: 'Унікальність Організації  полягає в практичному досвіду реабілітації  людей з тяжкими психічними порушеннями, зокрема шизофренії',
     en: 'The uniqueness of the Organization lies in the practical experience of rehabilitation of people with severe mental disorders, in particular schizophrenia',
   },
+  'mission-title': {
+    uk: 'Наша місія',
+    en: 'Our mission',
+  },
+  'mission-text-1': {
+    uk: 'Місією Громадської організації є сприяння у наданні допомоги особам з психічними порушеннями у ресоціалізації, реабілітації та реадаптації, в отриманні суцільної допомоги їхнім родичам, а також у створенні, діяльності та розвитку організацій, які покликані цю допомогу надавати.',
+    en: 'The mission of the Public Organization is to assist in the provision of assistance to persons with mental disorders in resocialization, rehabilitation and readaptation, in receiving continuous assistance to their relatives, as well as in the creation, operation and development of organizations that are called to provide this assistance.',
+  },
+  'mission-text-2': {
+    uk: 'Громадська організація розробляє і реалізує програми та проекти, спрямовані на збереження та відновлення соціальної активності осіб з психічними порушеннями, допомогу у їх медико-соціальної реабілітації, а також їхнім родичам та законним представникам.',
+    en: 'The public organization develops and implements programs and projects aimed at preserving and restoring the social activity of persons with mental disorders, assistance in their medical and social rehabilitation, as well as their relatives and legal representatives.',
+  },
+  'who-title': {
+    uk: 'Для кого цей сайт',
+    en: 'Who is this site for',
+  },
+  'who-card-text-1': {
+    uk: 'Підтримка людей з психічними порушеннями та їх родичів',
+    en: 'Support for people with mental disorders and their relatives',
+  },
+  'who-card-text-2': {
+    uk: 'Програми психоедукції та реабілітації для людей з психічними порушеннями',
+    en: 'Psychoeducation and rehabilitation programs for people with mental disorders',
+  },
+  'who-card-text-3': {
+    uk: 'Підготовка людей з психічними порушеннями',
+    en: 'Training of people with mental disorders',
+  },
   'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',

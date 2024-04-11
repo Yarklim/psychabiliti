@@ -43,12 +43,13 @@ body {
 }
 
 .join__button {
-  min-width: 80px;
-  max-width: 120px;
+  min-width: 100px;
+  max-width: 200px; /* 120 - 200 */
 
   margin: 0 auto;
-  margin-top: 20px;
-  padding: 10px 40px;
+  margin-top: 30px;
+  padding: clamp(0.625rem, 0.5rem + 0.63vw, 1.25rem)
+    clamp(2.5rem, 2.25rem + 1.25vw, 3.75rem); /* 10 - 20, 40 - 60 */
 
   display: flex;
   justify-content: center;
@@ -61,7 +62,7 @@ body {
 
   border-radius: 6px;
   background-color: var(--soft-blue-background);
-  box-shadow: var(--icon-shadow);
+  box-shadow: var(--main-shadow);
 
   transition: all 0.3s ease-in-out;
 
