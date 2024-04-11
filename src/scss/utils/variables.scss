@@ -25,13 +25,15 @@
     1.875rem
   ); /* 14 - 30 */
   --main-paragraph-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem); /* 12 - 16 */
-  --header-nav-size: clamp(0.875rem, 0.292rem + 1.22vw, 1.75rem); /* 14 - 28 */
+  --links-nav-size: clamp(0.875rem, 0.292rem + 1.22vw, 1.75rem); /* 14 - 28 */
 
   /* === Fonts line-height === */
 
   /* ========= Colors ======== */
   --dark-color: #0f0f0f;
   --light-color: #f6f4f0;
+  --gray-light-color: #cacaca;
+  --blue-opacity-light-color: #4187b6d5;
 
   /* ======== Gradients ======== */
   --main-linear: linear-gradient(to top, #abd699, #75c9b7);
@@ -51,4 +53,6 @@
   --padding-header-nav: clamp(0.313rem, 0.125rem + 0.94vw, 1.25rem)
     clamp(0.625rem, -2.375rem + 15vw, 15.625rem); /* 5 - 20, 10 - 250 */
   --padding-section: clamp(1.875rem, 1.5rem + 1.88vw, 3.75rem) 0; /* 30 - 60 */
+
+  /* ======== Swiper Styles ======== */
 }

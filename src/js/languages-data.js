@@ -27,6 +27,10 @@ export const homePageTexts = {
     uk: 'Контакти',
     en: 'Contacts',
   },
+  'footer-contacts-title': {
+    uk: 'Контакти',
+    en: 'Contacts',
+  },
 };
 
 export const teamPageTexts = {
@@ -61,6 +65,10 @@ export const teamPageTexts = {
   'team-hero-title': {
     uk: 'Команда',
     en: 'Our Team',
+  },
+  'footer-contacts-title': {
+    uk: 'Контакти',
+    en: 'Contacts',
   },
 };
 
@@ -97,6 +105,10 @@ export const partnershipPageTexts = {
     uk: 'Партнерство',
     en: 'Partnership',
   },
+  'footer-contacts-title': {
+    uk: 'Контакти',
+    en: 'Contacts',
+  },
 };
 
 export const newsPageTexts = {
@@ -131,6 +143,10 @@ export const newsPageTexts = {
   'news-hero-title': {
     uk: 'Новини',
     en: 'News',
+  },
+  'footer-contacts-title': {
+    uk: 'Контакти',
+    en: 'Contacts',
   },
 };
 
@@ -167,6 +183,10 @@ export const projectsPageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
+  'footer-contacts-title': {
+    uk: 'Контакти',
+    en: 'Contacts',
+  },
 };
 
 export const contactsPageTexts = {
@@ -199,6 +219,10 @@ export const contactsPageTexts = {
     en: 'Contacts',
   },
   'contacts-hero-title': {
+    uk: 'Контакти',
+    en: 'Contacts',
+  },
+  'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',
   },

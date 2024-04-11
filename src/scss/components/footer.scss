@@ -2,18 +2,77 @@
   width: 100%;
 
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   background-repeat: no-repeat;
 
   background-image: linear-gradient(
       to right,
-      rgba(61, 95, 122, 0.7),
-      rgba(65, 102, 151, 0.7)
+      rgba(61, 95, 122, 0.9),
+      rgba(65, 102, 151, 0.9)
     ),
-    url('/images/health-2.jpg');
+    url('/images/background-wave.png');
+}
+
+.footer__wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0;
 }
 
 .footer__logo {
   font-size: var(--main-title-size);
   font-weight: 700;
+}
+
+.footer__nav {
+  padding: 20px 0;
+
+  border-top: 2px solid var(--blue-opacity-light-color);
+  border-bottom: 2px solid var(--blue-opacity-light-color);
+}
+
+.footer__nav--list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer__nav-link {
+  font-family: var(--extra-paragraph-font);
+  font-size: var(--links-nav-size);
+  text-transform: uppercase;
+  color: var(--gray-light-color);
+}
+
+.footer__contacts--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contacts--title {
+  font-family: var(--thin-title-font);
+  font-size: var(--main-title-size);
+}
+
+.footer__contacts--list {
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 30px;
+}
+
+.footer__contacts--icon {
+  width: 30px;
+  fill: var(--gray-light-color);
+
+  &.mail {
+    width: 35px;
+  }
 }
