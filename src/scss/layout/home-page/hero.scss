@@ -1,1 +1,33 @@
+.hero__wrapper {
+  width: 100%;
 
+  display: flex;
+  align-items: center;
+}
+
+.hero__texts--wrapper {
+  flex-basis: 40%;
+}
+
+.slider {
+  flex-basis: 60%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+
+  width: 30px;
+  height: 30px;
+
+  padding: 10px;
+
+  flex-shrink: 0;
+
+  border: 2px solid var(--blue-color);
+  border-radius: 50%;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}

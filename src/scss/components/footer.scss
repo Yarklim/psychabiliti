@@ -7,8 +7,8 @@
 
   background-image: linear-gradient(
       to right,
-      rgba(61, 95, 122, 0.9),
-      rgba(65, 102, 151, 0.9)
+      var(--blue-opacity-light-color),
+      var(--blue-opacity-light-color)
     ),
     url('/images/background-wave.png');
 }
@@ -56,7 +56,9 @@
 
 .footer__contacts--title {
   font-family: var(--thin-title-font);
-  font-size: var(--main-title-size);
+  font-weight: 300;
+  font-size: var(--secondary-title-size);
+  text-transform: uppercase;
 }
 
 .footer__contacts--list {

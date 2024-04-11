@@ -1,7 +1,7 @@
 import Swiper from 'swiper';
 import { register } from 'swiper/element/bundle';
-// register Swiper custom elements
 register();
+
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
@@ -11,7 +11,7 @@ const swiperHero = new Swiper('.swiper', {
   speed: 1500,
   loop: true,
   autoplay: {
-    delay: 3000,
+    delay: 5000,
   },
   pagination: {
     el: '.swiper-pagination',

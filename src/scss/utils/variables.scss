@@ -24,7 +24,11 @@
     0.675rem + 1vw,
     1.875rem
   ); /* 14 - 30 */
-  --main-paragraph-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem); /* 12 - 16 */
+  --main-paragraph-size: clamp(
+    0.875rem,
+    0.825rem + 0.25vw,
+    1.125rem
+  ); /* 14 - 18 */
   --links-nav-size: clamp(0.875rem, 0.292rem + 1.22vw, 1.75rem); /* 14 - 28 */
 
   /* === Fonts line-height === */
@@ -32,19 +36,39 @@
   /* ========= Colors ======== */
   --dark-color: #0f0f0f;
   --light-color: #f6f4f0;
+  --blue-color: #2f80ec;
   --gray-light-color: #cacaca;
-  --blue-opacity-light-color: #4187b6d5;
+  --blue-opacity-light-color: #2a5b7cd7;
 
   /* ======== Gradients ======== */
   --main-linear: linear-gradient(to top, #abd699, #75c9b7);
   --main-linear-webkit: -webkit-linear-gradient(to top, #abd699, #75c9b7);
+  --light-linear-gradient: linear-gradient(
+    180deg,
+    #fff 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 
   /* ======= Backgrounds ======*/
   --body-background: #f6f4f0;
+  --light-background: #f1e3db;
   --blue-background: #2f80ec;
-  --soft-blue-background: #75c9b7;
+  --soft-blue-background: #4183bd;
   --yellow-background: #fdf3b6;
   --cards-background: #abd699;
+
+  /* ======== Shadows ======== */
+  --main-shadow: 0px 212px 59px 0px rgba(196, 173, 160, 0.01),
+    0px 136px 54px 0px rgba(196, 173, 160, 0.04),
+    0px 76px 46px 0px rgba(196, 173, 160, 0.15),
+    0px 34px 34px 0px rgba(196, 173, 160, 0.26),
+    0px 8px 19px 0px rgba(196, 173, 160, 0.29);
+
+  --icon-shadow: 0px 10px 5px 0px rgba(196, 173, 160, 0.01),
+    0px 6px 4px 0px rgba(196, 173, 160, 0.04),
+    0px 5px 3px 0px rgba(196, 173, 160, 0.15),
+    0px 4px 2px 0px rgba(196, 173, 160, 0.26),
+    0px 3px 1px 0px rgba(196, 173, 160, 0.29);
 
   /* ======== Paddings ========*/
   --padding-container: 0 clamp(0.625rem, -2.375rem + 15vw, 15.625rem); /* 10 - 250 */
@@ -52,7 +76,20 @@
     clamp(0.625rem, -2.375rem + 15vw, 15.625rem); /* 10 - 30, 10 - 250 */
   --padding-header-nav: clamp(0.313rem, 0.125rem + 0.94vw, 1.25rem)
     clamp(0.625rem, -2.375rem + 15vw, 15.625rem); /* 5 - 20, 10 - 250 */
-  --padding-section: clamp(1.875rem, 1.5rem + 1.88vw, 3.75rem) 0; /* 30 - 60 */
+  --padding-section: clamp(3.125rem, 2.5rem + 3.13vw, 6.25rem) 0; /* 50 - 100 */
+  --padding-icon: clamp(0.313rem, 0.225rem + 0.44vw, 0.75rem); /* 5 - 12 */
 
   /* ======== Swiper Styles ======== */
+  --swiper-theme-color: var(--blue-color);
+  --swiper-navigation-size: 15px;
+  --swiper-navigation-sides-offset: 100px;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-pagination-color: var(--blue-color);
+  --swiper-pagination-bullet-inactive-color: #f6f4f0;
+  --swiper-pagination-bullet-inactive-opacity: 0.6;
+  --swiper-pagination-bottom: clamp(
+    0.313rem,
+    0.125rem + 0.94vw,
+    1.25rem
+  ); /* 5 - 20 */
 }

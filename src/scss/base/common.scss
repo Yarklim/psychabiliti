@@ -41,3 +41,36 @@ body {
   margin: 0 auto;
   padding: var(--padding-container);
 }
+
+.join__button {
+  min-width: 80px;
+  max-width: 120px;
+
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--main-title-font);
+  font-size: var(--links-nav-size);
+  color: var(--light-color);
+  text-transform: uppercase;
+
+  border-radius: 6px;
+  background-color: var(--soft-blue-background);
+  box-shadow: var(--icon-shadow);
+
+  transition: all 0.3s ease-in-out;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--blue-background);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
