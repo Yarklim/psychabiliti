@@ -79,6 +79,10 @@ export const homePageTexts = {
     uk: 'Підготовка людей з психічними порушеннями',
     en: 'Training of people with mental disorders',
   },
+  'why-title': {
+    uk: 'Чому ми?',
+    en: 'Why us?',
+  },
   'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',

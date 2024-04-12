@@ -24,6 +24,7 @@
     0.675rem + 1vw,
     1.875rem
   ); /* 14 - 30 */
+  --small-title-size: clamp(0.875rem, 0.85rem + 0.13vw, 1rem); /* 14 - 16 */
   --main-paragraph-size: clamp(
     0.875rem,
     0.825rem + 0.25vw,
@@ -34,6 +35,11 @@
     0.7rem + 0.25vw,
     1rem
   ); /* 12 - 16 */
+  --small-paragraph-size: clamp(
+    0.75rem,
+    0.661rem + 0.45vw,
+    0.875rem
+  ); /* 12 - 14 */
   --links-nav-size-mob: clamp(
     0.75rem,
     0.661rem + 0.45vw,

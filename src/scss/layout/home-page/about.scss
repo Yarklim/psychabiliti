@@ -25,26 +25,6 @@
   gap: 0 20px;
 }
 
-.about__title-icon--wrapper {
-  width: calc(var(--main-title-size) * 2);
-  height: calc(var(--main-title-size) * 2);
-
-  padding: var(--padding-icon);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  border-radius: 10px;
-  border: 1px solid var(--light-background);
-  background: var(--light-linear-gradient);
-  box-shadow: var(--icon-shadow);
-}
-
-.about__title--icon {
-  fill: var(--icon-color);
-}
-
 .about__title {
   text-transform: uppercase;
 }
