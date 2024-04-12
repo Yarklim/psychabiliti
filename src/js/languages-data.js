@@ -83,6 +83,10 @@ export const homePageTexts = {
     uk: 'Контакти',
     en: 'Contacts',
   },
+  'footer-signature': {
+    uk: 'Київська громадська організація "PSYCHABILITI"',
+    en: 'Kyiv public organization "PSYCHABILITY"',
+  },
 };
 
 export const teamPageTexts = {
@@ -125,6 +129,10 @@ export const teamPageTexts = {
   'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',
+  },
+  'footer-signature': {
+    uk: 'Київська громадська організація "PSYCHABILITI"',
+    en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
 
@@ -169,6 +177,10 @@ export const partnershipPageTexts = {
     uk: 'Контакти',
     en: 'Contacts',
   },
+  'footer-signature': {
+    uk: 'Київська громадська організація "PSYCHABILITI"',
+    en: 'Kyiv public organization "PSYCHABILITY"',
+  },
 };
 
 export const newsPageTexts = {
@@ -211,6 +223,10 @@ export const newsPageTexts = {
   'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',
+  },
+  'footer-signature': {
+    uk: 'Київська громадська організація "PSYCHABILITI"',
+    en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
 
@@ -255,6 +271,10 @@ export const projectsPageTexts = {
     uk: 'Контакти',
     en: 'Contacts',
   },
+  'footer-signature': {
+    uk: 'Київська громадська організація "PSYCHABILITI"',
+    en: 'Kyiv public organization "PSYCHABILITY"',
+  },
 };
 
 export const contactsPageTexts = {
@@ -297,5 +317,9 @@ export const contactsPageTexts = {
   'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',
+  },
+  'footer-signature': {
+    uk: 'Київська громадська організація "PSYCHABILITI"',
+    en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };

@@ -38,12 +38,12 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: clamp(0.625rem, 0.25rem + 1.88vw, 2.5rem);
 }
 
 .footer__nav-link {
   font-family: var(--extra-paragraph-font);
-  font-size: var(--links-nav-size);
+  font-size: var(--links-nav-size-mob);
   text-transform: uppercase;
   color: var(--gray-light-color);
 }
@@ -77,4 +77,17 @@
   &.mail {
     width: clamp(1.438rem, 1.288rem + 0.75vw, 2.188rem); /* 23 - 35 */
   }
+}
+
+.footage__signature--wrapper {
+  width: 100%;
+
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px 0;
+
+  font-size: var(--secondary-paragraph-size);
 }

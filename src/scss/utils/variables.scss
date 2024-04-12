@@ -17,8 +17,8 @@
   --thin-paragraph-font: 'Nunito-Light', sans-serif;
 
   /* ====== Fonts sizes ====== */
-  --extra-title-size: clamp(1.25rem, 0.563rem + 3.44vw, 4.688rem); /* 20 - 75 */
-  --main-title-size: clamp(1.125rem, 0.787rem + 1.69vw, 2.813rem); /* 18 - 45 */
+  --extra-title-size: clamp(1.25rem, 0.625rem + 3.13vw, 4.375rem); /* 20 - 70 */
+  --main-title-size: clamp(1.125rem, 0.85rem + 1.38vw, 2.5rem); /* 18 - 40 */
   --secondary-title-size: clamp(
     0.875rem,
     0.675rem + 1vw,
@@ -29,7 +29,21 @@
     0.825rem + 0.25vw,
     1.125rem
   ); /* 14 - 18 */
-  --links-nav-size: clamp(0.875rem, 0.292rem + 1.22vw, 1.75rem); /* 14 - 28 */
+  --secondary-paragraph-size: clamp(
+    0.75rem,
+    0.7rem + 0.25vw,
+    1rem
+  ); /* 12 - 16 */
+  --links-nav-size-mob: clamp(
+    0.75rem,
+    0.661rem + 0.45vw,
+    0.875rem
+  ); /* 12 - 14 */
+  --links-nav-size-desk: clamp(
+    0.75rem,
+    0.417rem + 0.69vw,
+    1.25rem
+  ); /* 12 - 20 */
 
   /* === Fonts line-height === */
 
@@ -72,20 +86,20 @@
     0px 3px 1px 0px rgba(196, 173, 160, 0.29);
 
   /* ======== Paddings ========*/
-  --padding-container: 0 clamp(0.625rem, -2.375rem + 15vw, 15.625rem); /* 10 - 250 */
+  --padding-container: 0 clamp(0.625rem, -3.25rem + 19.38vw, 20rem); /* 10 - 300 */
   --padding-header-top: clamp(0.625rem, 0.375rem + 1.25vw, 1.875rem)
-    clamp(0.625rem, -2.375rem + 15vw, 15.625rem); /* 10 - 30, 10 - 250 */
+    clamp(0.625rem, -3.25rem + 19.38vw, 20rem); /* 10 - 30, 10 - 300 */
   --padding-header-nav: clamp(0.313rem, 0.125rem + 0.94vw, 1.25rem)
-    clamp(0.625rem, -2.375rem + 15vw, 15.625rem); /* 5 - 20, 10 - 250 */
-  --padding-section: clamp(3.75rem, 3rem + 3.75vw, 7.5rem) 0; /* 60 - 120 */
+    clamp(0.625rem, -3.25rem + 19.38vw, 20rem); /* 5 - 20, 10 - 300 */
+  --padding-section: clamp(2.5rem, 2rem + 2.5vw, 5rem) 0; /* 40 - 80 */
   --padding-icon: clamp(0.313rem, 0.225rem + 0.44vw, 0.75rem); /* 5 - 12 */
 
   /* ======== Swiper Styles ======== */
-  --swiper-theme-color: var(--blue-color);
+  --swiper-theme-color: var(--soft-blue-background);
   --swiper-navigation-size: 15px;
   --swiper-navigation-sides-offset: 100px;
   --swiper-navigation-top-offset: 50%;
-  --swiper-pagination-color: var(--blue-color);
+  --swiper-pagination-color: var(--soft-blue-background);
   --swiper-pagination-bullet-inactive-color: #f6f4f0;
   --swiper-pagination-bullet-inactive-opacity: 0.6;
   --swiper-pagination-bottom: clamp(
