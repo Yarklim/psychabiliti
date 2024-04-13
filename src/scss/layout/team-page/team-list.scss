@@ -12,16 +12,11 @@
   width: 100%;
 
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 20px;
 
-  gap: 40px 0;
-
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0 clamp(0.625rem, -0.208rem + 1.74vw, 1.875rem); /* 10 - 30 */
-  }
+  gap: 20px;
 }
 
 .team__card--item {
@@ -31,7 +26,6 @@
 
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
 
   border-radius: 10px;
   border: 1px solid var(--light-background);
@@ -45,9 +39,9 @@
   transition: all 0.3s ease;
 
   @media screen and (min-width: 768px) {
-    max-width: clamp(17.5rem, 3.333rem + 29.51vw, 38.75rem); /* 280 - 620 */
+    width: calc((100% - 40px) / 2);
 
-    gap: 0 clamp(0.625rem, -0.208rem + 1.74vw, 1.875rem); /* 10 - 30 */
+    gap: 0 20px;
   }
 
   &:is(:hover, :focus-visible) {
