@@ -9,12 +9,13 @@
   font-family: var(--main-title-font);
   font-size: var(--main-title-size);
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .secondary__title {
   font-family: var(--secondary-title-font);
   font-size: var(--secondary-title-size);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .thin__title {

@@ -12,7 +12,13 @@
 @import url('./components/footer.scss');
 
 /* ========== Layouts =========== */
+
+/*--------- Home - Page ----------*/
 @import url('./layout/home-page/hero.scss');
 @import url('./layout/home-page/about.scss');
 @import url('./layout/home-page/who.scss');
 @import url('./layout/home-page/why.scss');
+
+/*--------- Team - Page ----------*/
+@import url('./layout/team-page/team-hero.scss');
+@import url('./layout/team-page/team-list.scss');

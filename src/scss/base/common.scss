@@ -57,6 +57,8 @@ body {
 
   font-family: var(--main-title-font);
   font-size: var(--links-nav-size);
+  font-weight: 700;
+  letter-spacing: 1.5px;
   color: var(--light-color);
   text-transform: uppercase;
 
@@ -68,7 +70,8 @@ body {
 
   &:hover,
   &:focus-visible {
-    background-color: var(--blue-background);
+    color: var(--dark-color);
+    background-color: var(--hover-background);
   }
 
   &:active {

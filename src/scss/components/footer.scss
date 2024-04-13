@@ -46,6 +46,10 @@
   font-size: var(--links-nav-size-mob);
   text-transform: uppercase;
   color: var(--gray-light-color);
+
+  &:is(:hover, :focus, .active-page) {
+    color: var(--yellow-color);
+  }
 }
 
 .footer__contacts--wrapper {
@@ -74,8 +78,16 @@
   width: clamp(1.25rem, 1.125rem + 0.63vw, 1.875rem); /* 20 - 30 */
   fill: var(--gray-light-color);
 
+  transition: all 0.3s ease;
+
   &.mail {
     width: clamp(1.438rem, 1.288rem + 0.75vw, 2.188rem); /* 23 - 35 */
+  }
+
+  &:is(:hover, :focus) {
+    fill: var(--yellow-color);
+
+    transform: scale(1.05);
   }
 }
 

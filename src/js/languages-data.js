@@ -127,7 +127,7 @@ export const teamPageTexts = {
     en: 'Contacts',
   },
   'team-hero-title': {
-    uk: 'Команда',
+    uk: 'Наша команда',
     en: 'Our Team',
   },
   'footer-contacts-title': {
