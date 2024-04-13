@@ -27,9 +27,9 @@ export const homePageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
-  'nav-link-contacts': {
-    uk: 'Контакти',
-    en: 'Contacts',
+  'nav-link-question': {
+    uk: 'Питання',
+    en: 'FAQ',
   },
   'about-title': {
     uk: 'Про нас',
@@ -122,9 +122,9 @@ export const teamPageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
-  'nav-link-contacts': {
-    uk: 'Контакти',
-    en: 'Contacts',
+  'nav-link-question': {
+    uk: 'Питання',
+    en: 'FAQ',
   },
   'team-hero-title': {
     uk: 'Наша команда',
@@ -169,9 +169,9 @@ export const partnershipPageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
-  'nav-link-contacts': {
-    uk: 'Контакти',
-    en: 'Contacts',
+  'nav-link-question': {
+    uk: 'Питання',
+    en: 'FAQ',
   },
   'partnership-hero-title': {
     uk: 'Партнерство',
@@ -216,9 +216,9 @@ export const newsPageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
-  'nav-link-contacts': {
-    uk: 'Контакти',
-    en: 'Contacts',
+  'nav-link-question': {
+    uk: 'Питання',
+    en: 'FAQ',
   },
   'news-hero-title': {
     uk: 'Новини',
@@ -267,9 +267,9 @@ export const projectsPageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
-  'nav-link-contacts': {
-    uk: 'Контакти',
-    en: 'Contacts',
+  'nav-link-question': {
+    uk: 'Питання',
+    en: 'FAQ',
   },
   'projects-hero-title': {
     uk: 'Проєкти',
@@ -289,10 +289,10 @@ export const projectsPageTexts = {
   },
 };
 
-export const contactsPageTexts = {
+export const faqPageTexts = {
   'document-title': {
-    uk: 'Контакти',
-    en: 'Contacts',
+    uk: 'Питання',
+    en: 'FAQ',
   },
   'join-button': {
     uk: 'Долучитися',
@@ -318,15 +318,15 @@ export const contactsPageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
-  'nav-link-contacts': {
-    uk: 'Контакти',
-    en: 'Contacts',
+  'nav-link-question': {
+    uk: 'Питання',
+    en: 'FAQ',
   },
-  'contacts-hero-title': {
-    uk: 'Контакти',
-    en: 'Contacts',
+  'faq-hero-title': {
+    uk: 'Питання - Відповідь',
+    en: 'FAQ',
   },
-  'footer-contacts-title': {
+  'footer-faq-title': {
     uk: 'Контакти',
     en: 'Contacts',
   },

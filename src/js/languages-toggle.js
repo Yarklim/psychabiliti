@@ -4,7 +4,7 @@ import {
   partnershipPageTexts,
   newsPageTexts,
   projectsPageTexts,
-  contactsPageTexts,
+  faqPageTexts,
 } from './languages-data';
 
 const htmlEl = document.querySelector('[data-html]');
@@ -70,8 +70,8 @@ function checkPagePathName() {
     case `${baseName}/projects.html`:
       currentText = projectsPageTexts;
       break;
-    case `${baseName}/contacts.html`:
-      currentText = contactsPageTexts;
+    case `${baseName}/faq.html`:
+      currentText = faqPageTexts;
       break;
     default:
       currentText = homePageTexts;
