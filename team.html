@@ -14,8 +14,8 @@
     />
     <meta name="keyword" content="website, layout, vite, template" />
     <script type="module" crossorigin src="/psychabiliti/assets/vendor-c0aca9b6.js"></script>
-    <script type="module" crossorigin src="/psychabiliti/assets/languages-toggle-e91eff23.js"></script>
-    <link rel="stylesheet" href="/psychabiliti/assets/languages-toggle-bb11726b.css">
+    <script type="module" crossorigin src="/psychabiliti/assets/languages-toggle-a29b60ea.js"></script>
+    <link rel="stylesheet" href="/psychabiliti/assets/languages-toggle-874e5705.css">
     <link rel="stylesheet" href="/psychabiliti/assets/vendor-b1ef7476.css">
   </head>
   <body>
@@ -60,7 +60,7 @@
       <li class="header__nav-item">
         <a
           href="./"
-          class="header__nav-link"
+          class="header__nav-link active-page"
           data-lang="nav-link-main"
           aria-label="на Головну сторінку"
           >Головна</a
@@ -123,11 +123,80 @@
 
       <!-- =============== Main ================ -->
       <main class="main">
-        <section class="section hero">
-  <div class="container hero__wrapper">
-    <h1 class="main__title" data-lang="team-hero-title">Команда</h1>
+        <section class="section team__hero">
+  <div class="container team__hero--wrapper">
+    <div class="team__hero--title-wrapper">
+      <div class="icon__wrapper">
+        <svg width="50" height="50" class="cards__icon">
+          <use href="/psychabiliti/icons/sprite.svg#icon-tandem"></use>
+        </svg>
+      </div>
+      <h1 class="main__title" data-lang="team-hero-title">Наша команда</h1>
+    </div>
   </div>
 </section>
+
+        <div class="container team-list__wrapper">
+  <!-- Cards -->
+  <ul class="team__cards--list">
+    <li class="team__card--item">
+      <img
+        src="/psychabiliti/images/doc-2.jpg"
+        alt="doctor"
+        class="team__card--img"
+        width="800"
+        height="800"
+      />
+      <h2 class="secondary__title team__card--name">ФІО ЛІКАРЯ</h2>
+      <p class="team__card--text" data-lang="team-card-text-1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint numquam
+        error suscipit architecto fugit distinctio!
+      </p>
+    </li>
+    <li class="team__card--item">
+      <img
+        src="/psychabiliti/images/doc-1.jpg"
+        alt="psyhiatrist"
+        class="team__card--img"
+        width="800"
+        height="800"
+      />
+      <h2 class="secondary__title team__card--name">ФІО ЛІКАРЯ</h2>
+      <p class="team__card--text" data-lang="team-card-text-2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, eius.
+        Ipsum, tenetur.
+      </p>
+    </li>
+    <li class="team__card--item">
+      <img
+        src="/psychabiliti/images/doc-3.jpg"
+        alt="psyhiatrist"
+        class="team__card--img"
+        width="800"
+        height="800"
+      />
+      <h2 class="secondary__title team__card--name">ФІО ЛІКАРЯ</h2>
+      <p class="team__card--text" data-lang="team-card-text-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo a
+        praesentium eveniet aut rem quidem saepe eum quisquam.
+      </p>
+    </li>
+    <li class="team__card--item">
+      <img
+        src="/psychabiliti/images/doc-5.jpg"
+        alt="psyhiatrist"
+        class="team__card--img"
+        width="800"
+        height="800"
+      />
+      <h2 class="secondary__title team__card--name">ФІО ЛІКАРЯ</h2>
+      <p class="team__card--text" data-lang="team-card-text-3">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem,
+        doloremque?
+      </p>
+    </li>
+  </ul>
+</div>
 
       </main>
 
@@ -145,7 +214,7 @@
         <li class="footer__nav-item">
           <a
             href="./"
-            class="footer__nav-link"
+            class="footer__nav-link active-page"
             data-lang="nav-link-main"
             aria-label="на Головну сторінку"
             >Головна</a
