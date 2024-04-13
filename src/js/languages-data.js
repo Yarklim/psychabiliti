@@ -271,6 +271,10 @@ export const projectsPageTexts = {
     uk: 'Проєкти',
     en: 'Projects',
   },
+  'projects__card--link': {
+    uk: 'Дізнатись більше...',
+    en: 'Learn more...',
+  },
   'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',
