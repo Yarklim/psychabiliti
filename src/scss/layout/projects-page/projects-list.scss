@@ -42,21 +42,32 @@
   }
 }
 
-.projects__card--name {
+.projects__card--texts-wrapper {
+  width: 100%;
+
   padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+}
+
+.projects__card--name {
   color: var(--dark-color);
 }
 
 .projects__card--text {
-  padding: 0 20px 20px 20px;
-
-  font-family: var(--main-paragraph-font);
-  font-size: var(--main-paragraph-size);
-  line-height: 1.5;
-  color: var(--dark-color);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .projects__card--link {
-  padding: 20px;
+  font-weight: 700;
   color: var(--soft-blue-background);
+}
+
+.project__join {
+  margin-top: 20px;
 }

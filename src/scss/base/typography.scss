@@ -31,7 +31,10 @@
 }
 
 .main__paragraph {
+  font-family: var(--main-paragraph-font);
   font-size: var(--main-paragraph-size);
+  line-height: 1.4;
+  color: var(--dark-color);
 }
 
 .secondary__paragraph {

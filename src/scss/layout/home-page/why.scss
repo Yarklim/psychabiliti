@@ -44,12 +44,21 @@
   background: var(--light-linear-gradient);
   box-shadow: var(--main-shadow);
 
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
   @media screen and (min-width: 768px) {
     display: flex;
 
     padding: clamp(0.625rem, -0.208rem + 1.74vw, 1.875rem); /* 10 - 30 */
 
     gap: clamp(0.625rem, 0.208rem + 0.87vw, 1.25rem) 0; /* 10 - 20 */
+  }
+
+  &:is(:hover, :focus-visible) {
+    transform: scale(1.02);
+    background: var(--hover-background);
   }
 }
 
