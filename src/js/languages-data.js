@@ -224,6 +224,10 @@ export const newsPageTexts = {
     uk: 'Новини',
     en: 'News',
   },
+  'news-read-more': {
+    uk: 'Читати далі...',
+    en: 'Read more...',
+  },
   'footer-contacts-title': {
     uk: 'Контакти',
     en: 'Contacts',
