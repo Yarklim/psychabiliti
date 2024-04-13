@@ -1,0 +1,14 @@
+.partnership__hero--title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+
+  order: 2;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+
+    gap: 0 20px;
+  }
+}

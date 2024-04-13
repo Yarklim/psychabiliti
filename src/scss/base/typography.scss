@@ -3,12 +3,14 @@
   font-family: var(--extra-title-font);
   font-size: var(--main-title-size);
   font-weight: 800;
+  color: var(--dark-color);
 }
 
 .main__title {
   font-family: var(--main-title-font);
   font-size: var(--main-title-size);
   font-weight: 700;
+  color: var(--dark-color);
   text-transform: uppercase;
 }
 
@@ -16,18 +18,21 @@
   font-family: var(--secondary-title-font);
   font-size: var(--secondary-title-size);
   font-weight: 700;
+  color: var(--dark-color);
 }
 
 .thin__title {
   font-family: var(--thin-title-font);
   font-size: var(--secondary-title-size);
   font-weight: 400;
+  color: var(--dark-color);
 }
 
 /* ========= Paragraphs ======== */
 .extra__paragraph {
   font-family: var(--extra-paragraph-font);
   font-size: var(--main-paragraph-size);
+  color: var(--dark-color);
 }
 
 .main__paragraph {
@@ -40,9 +45,11 @@
 .secondary__paragraph {
   font-family: var(--secondary-paragraph-font);
   font-size: var(--main-paragraph-size);
+  color: var(--dark-color);
 }
 
 .thin__paragraph {
   font-family: var(--thin-paragraph-font);
   font-size: var(--main-paragraph-size);
+  color: var(--dark-color);
 }
