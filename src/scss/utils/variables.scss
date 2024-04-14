@@ -100,7 +100,8 @@
     clamp(0.625rem, -3.25rem + 19.38vw, 20rem); /* 10 - 30, 10 - 300 */
   --padding-header-nav: clamp(0.313rem, 0.125rem + 0.94vw, 1.25rem)
     clamp(0.625rem, -3.25rem + 19.38vw, 20rem); /* 5 - 20, 10 - 300 */
-  --padding-top-hero: clamp(1.875rem, 1.5rem + 1.88vw, 3.75rem); /* 30 - 60 */
+  --padding-hero: clamp(5rem, 3.063rem + 9.69vw, 14.688rem) 0
+    clamp(2.5rem, 2rem + 2.5vw, 5rem) 0; /* 80 - 235, 40 - 80 */
   --padding-section: clamp(2.5rem, 2rem + 2.5vw, 5rem) 0; /* 40 - 80 */
   --padding-icon: clamp(0.313rem, 0.225rem + 0.44vw, 0.75rem); /* 5 - 12 */
 

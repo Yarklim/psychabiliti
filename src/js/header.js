@@ -10,19 +10,19 @@ const linkProjects = document.querySelectorAll('[data-page-projects]');
 const linkFaq = document.querySelectorAll('[data-page-faq]');
 
 // ================ Hero Section Position =================
-let bodyTopPadding = headerMenu.offsetHeight;
+// let bodyTopPadding = headerMenu.offsetHeight;
 
-const resizeBody = new ResizeObserver(entries => {
-  for (const entry of entries) {
-    const newHeight = entry.contentRect.height;
+// const resizeBody = new ResizeObserver(entries => {
+//   for (const entry of entries) {
+//     const newHeight = entry.contentRect.height;
 
-    bodyTopPadding = newHeight;
+//     bodyTopPadding = newHeight;
 
-    heroSection.style.paddingTop = `${bodyTopPadding}px`;
-  }
-});
+//     heroSection.style.paddingTop = `${bodyTopPadding}px`;
+//   }
+// });
 
-resizeBody.observe(headerMenu);
+// resizeBody.observe(headerMenu);
 
 // ================ Sticky Menu ===================
 let prevScrollPos = window.scrollY;

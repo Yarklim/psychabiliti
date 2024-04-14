@@ -66,7 +66,7 @@ body {
   background-color: var(--soft-blue-background);
   box-shadow: var(--main-shadow);
 
-  transition: all 0.3s ease-in-out;
+  transition: background-color, transform 0.3s ease-in-out;
 
   &:is(:hover, :focus-visible) {
     transform: scale(1.02);
