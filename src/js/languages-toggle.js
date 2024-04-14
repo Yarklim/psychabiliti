@@ -10,8 +10,8 @@ import {
 const htmlEl = document.querySelector('[data-html]');
 const languagesBtnEl = document.querySelector('[data-language-btn]');
 const languageImgEl = document.querySelectorAll('[data-language-img]');
-const currentPathName = window.location.pathname;
-const baseName = getBaseName();
+export const currentPathName = window.location.pathname;
+export const baseName = getBaseName();
 
 const allLangs = ['uk', 'en'];
 

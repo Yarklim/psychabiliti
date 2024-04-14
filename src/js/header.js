@@ -1,7 +1,13 @@
+import { baseName, currentPathName } from './languages-toggle';
+
 const headerMenu = document.querySelector('[data-header]');
 const heroSection = document.querySelector('[data-hero]');
-const selectListEl = document.querySelector('[data-select-list]');
-const selectItemEl = document.querySelectorAll('[data-select-item]');
+const linkHome = document.querySelectorAll('[data-page-home]');
+const linkTeam = document.querySelectorAll('[data-page-team]');
+const linkPartnership = document.querySelectorAll('[data-page-partnership]');
+const linkNews = document.querySelectorAll('[data-page-news]');
+const linkProjects = document.querySelectorAll('[data-page-projects]');
+const linkFaq = document.querySelectorAll('[data-page-faq]');
 
 // ================ Hero Section Position =================
 let bodyTopPadding = headerMenu.offsetHeight;
@@ -31,26 +37,31 @@ window.onscroll = () => {
   prevScrollPos = currentScrollPos;
 };
 
-// ================ Active Link & Select Menu =================
-// const headerNavLink = document.querySelectorAll('.header__nav-link');
-
-// headerNavLink.forEach(link => {
-//   link.addEventListener('click', () => onChangeLinkColor(link));
-// });
-
-// selectItemEl.forEach(link => {
-//   link.addEventListener('click', () => {
-//     onChangeLinkColor(link);
-//     selectListEl.textContent = link.textContent;
-//     selectListEl.classList.add('active__select-list');
-//   });
-// });
-
-function onChangeLinkColor(link) {
-  const currentActiveLink = document.querySelector('.active__nav-link');
+// ================ Active Link =================
+function onChangeLinkColor() {
+  const currentActiveLink = document.querySelectorAll('.active-page');
 
   if (currentActiveLink) {
-    currentActiveLink.classList.remove('active__nav-link');
+    currentActiveLink.forEach(el => el.classList.remove('active-page'));
   }
-  link.classList.add('active__nav-link');
+  switch (currentPathName) {
+    case `${baseName}/team.html`:
+      linkTeam.forEach(el => el.classList.add('active-page'));
+      break;
+    case `${baseName}/partnership.html`:
+      linkPartnership.forEach(el => el.classList.add('active-page'));
+      break;
+    case `${baseName}/news.html`:
+      linkNews.forEach(el => el.classList.add('active-page'));
+      break;
+    case `${baseName}/projects.html`:
+      linkProjects.forEach(el => el.classList.add('active-page'));
+      break;
+    case `${baseName}/faq.html`:
+      linkFaq.forEach(el => el.classList.add('active-page'));
+      break;
+    default:
+      linkHome.forEach(el => el.classList.add('active-page'));
+  }
 }
+onChangeLinkColor();
