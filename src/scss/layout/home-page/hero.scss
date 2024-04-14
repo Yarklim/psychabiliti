@@ -1,3 +1,7 @@
+.hero {
+  padding-top: clamp(3rem, 1.412rem + 7.94vw, 10.938rem); /* 48 - 175*/
+}
+
 .hero__wrapper {
   width: 100%;
 
