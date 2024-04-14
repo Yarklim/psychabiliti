@@ -18,6 +18,13 @@ modalCloseEl.addEventListener('click', closeModal);
 function openModal() {
   backdropEl.classList.remove('is-hidden');
 
+  const forBtnEl = document.querySelector('[data-submit-btn]');
+  const checkInputEl = document.querySelector('[data-input-agree]');
+
+  checkInputEl.addEventListener('change', () => {
+    forBtnEl.toggleAttribute('disabled');
+  });
+
   window.addEventListener('keydown', onEscKeyPress);
 }
 
