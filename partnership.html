@@ -11,8 +11,8 @@
     <meta name="description" content="Partnership" />
     <meta name="keyword" content="Partnership" />
     <script type="module" crossorigin src="/psychabiliti/assets/vendor-c0aca9b6.js"></script>
-    <script type="module" crossorigin src="/psychabiliti/assets/languages-toggle-a7fbb713.js"></script>
-    <link rel="stylesheet" href="/psychabiliti/assets/languages-toggle-2e2d9630.css">
+    <script type="module" crossorigin src="/psychabiliti/assets/modal-0168b036.js"></script>
+    <link rel="stylesheet" href="/psychabiliti/assets/modal-dafff903.css">
     <link rel="stylesheet" href="/psychabiliti/assets/vendor-b1ef7476.css">
   </head>
   <body>
@@ -24,6 +24,16 @@
     <h1 class="header__logo" lang="en">PSYCHABILITI</h1>
 
     <div class="header__user-action--wrapper">
+      <!-- Join us -->
+      <button
+        class="header__join"
+        data-lang="join-button"
+        data-modal-open
+        aria-label="Долучитися"
+      >
+        Долучитися
+      </button>
+
       <!-- Languages -->
       <button
         class="header__language--btn"
@@ -384,6 +394,156 @@
     </div>
   </div>
 </footer>
+
+
+      <!-- =============== Modal =============== -->
+      <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal__close" data-modal-close>
+      <svg class="modal__close--icon" width="30" height="30">
+        <use href="/psychabiliti/icons/sprite.svg#close"></use>
+      </svg>
+    </button>
+
+    <form class="modal__form" name="registration-form" id="modal__form">
+      <strong class="modal__form--title"
+        >Залиште свої дані, ми вам передзвонимо</strong
+      >
+      <div
+        class="modal__form--details"
+        role="group"
+        aria-labelledby="modal__form"
+      >
+        <div class="modal__form--field">
+          <label class="modal__form--label" for="name">Ім'я</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            autocomplete="name"
+            class="modal__form--input"
+            placeholder=" "
+          />
+          <svg class="form__input--icon" width="18" height="18">
+            <use href="/psychabiliti/icons/sprite.svg#person-black"></use>
+          </svg>
+        </div>
+
+        <div class="modal__form--field">
+          <label for="tel" class="modal__form--label">Телефон</label>
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            autocomplete="on"
+            class="modal__form--input"
+            placeholder=" "
+          />
+          <svg class="form__input--icon" width="18" height="18">
+            <use href="/psychabiliti/icons/sprite.svg#phone-black"></use>
+          </svg>
+        </div>
+
+        <div class="modal__form--field">
+          <label for="email" class="modal__form--label">Пошта</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="email"
+            class="modal__form--input"
+            placeholder=" "
+          />
+          <svg class="form__input--icon" width="18" height="18">
+            <use href="/psychabiliti/icons/sprite.svg#email-black"></use>
+          </svg>
+        </div>
+
+        <div class="form__select--wrapper">
+          <div class="modal__form--checkbox">
+            <label class="form__label--agree">
+              <input
+                class="form__input--agree"
+                type="radio"
+                name="select"
+                value="parent"
+              />
+
+              <svg class="label__agree--icon" width="16" height="15">
+                <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
+              </svg>
+
+              <span>родич</span>
+            </label>
+          </div>
+          <div class="modal__form--checkbox">
+            <label class="form__label--agree">
+              <input
+                class="form__input--agree"
+                type="radio"
+                name="select"
+                value="client"
+              />
+
+              <svg class="label__agree--icon" width="16" height="15">
+                <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
+              </svg>
+
+              <span>клієнт</span>
+            </label>
+          </div>
+          <div class="modal__form--checkbox">
+            <label class="form__label--agree">
+              <input
+                class="form__input--agree"
+                type="radio"
+                name="select"
+                value="specialist"
+              />
+
+              <svg class="label__agree--icon" width="16" height="15">
+                <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
+              </svg>
+
+              <span>фахівець</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="modal__form--field">
+          <label for="comment" class="modal__form--label">Коментар</label>
+          <textarea
+            name="comment"
+            id="comment"
+            class="form__input--comment"
+            placeholder="Введіть текст"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="modal__form--checkbox">
+        <label class="form__label--agree">
+          <input
+            class="form__input--agree"
+            type="checkbox"
+            name="agree"
+            value="agree"
+          />
+
+          <svg class="label__agree--icon" width="16" height="15">
+            <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
+          </svg>
+
+          <span>Погоджуюся на обробку моїх персональних даних</span>
+        </label>
+      </div>
+
+      <button type="submit" disabled class="modal__form--btn">
+        Відправити
+      </button>
+    </form>
+  </div>
+</div>
 
     </div>
 
