@@ -82,14 +82,17 @@
   width: var(--main-title-size);
   height: var(--main-title-size);
 
+  padding: 0 5px;
+
   display: flex;
   justify-content: center;
   align-items: center;
 
   flex-shrink: 0;
 
-  border: 1px solid var(--soft-blue-background);
-  border-radius: 50%;
+  border-radius: 6px;
+  border: 2px solid var(--soft-blue-background);
+  background-color: transparent;
 
   & .header__language--img {
     width: 80%;
