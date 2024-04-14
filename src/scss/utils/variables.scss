@@ -116,4 +116,14 @@
     0.125rem + 0.94vw,
     1.25rem
   ); /* 5 - 20 */
+
+  /* ======== Modal Styles ======== */
+  --backdrop-bg: rgba(0, 0, 0, 0.4);
+  --modal-bg: #f6f4f0;
+  --modal-accent-color: #4183bd;
+  --modal-accent-hover: #2f5a80;
+  --modal-close-icon: #333230;
+  --modal-close-icon-hover: #2f5a80;
+  --modal-texts-color: #333230;
+  --modal-input-icon: #333230;
 }

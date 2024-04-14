@@ -30,7 +30,30 @@
 /* =========== User Action ========== */
 .header__user-action--wrapper {
   display: flex;
+  align-items: center;
   column-gap: 15px;
+}
+
+.header__join {
+  padding: clamp(0.313rem, 0.104rem + 0.43vw, 0.625rem) 25px; /* 5 - 10 (768-1920)*/
+
+  font-family: var(--main-title-font);
+  font-size: var(--small-paragraph-size);
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: var(--soft-blue-background);
+  text-transform: uppercase;
+
+  border-radius: 6px;
+  border: 2px solid var(--soft-blue-background);
+  background-color: transparent;
+
+  transition: color, background-color 0.3s ease-in-out;
+
+  &:is(:hover, :focus-visible) {
+    background: var(--soft-blue-background);
+    color: var(--light-color);
+  }
 }
 
 .user__auth--button {
