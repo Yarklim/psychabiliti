@@ -14,7 +14,7 @@
     />
     <meta name="keyword" content="website, layout, vite, template" />
     <script type="module" crossorigin src="/psychabiliti/assets/vendor-c0aca9b6.js"></script>
-    <script type="module" crossorigin src="/psychabiliti/assets/modal-2a53418a.js"></script>
+    <script type="module" crossorigin src="/psychabiliti/assets/modal-8c739d2a.js"></script>
     <link rel="stylesheet" href="/psychabiliti/assets/modal-dafff903.css">
     <link rel="stylesheet" href="/psychabiliti/assets/vendor-b1ef7476.css">
   </head>
@@ -328,7 +328,7 @@
     </button>
 
     <form class="modal__form" name="registration-form" id="modal__form">
-      <strong class="modal__form--title"
+      <strong class="modal__form--title" data-lang="modal-title"
         >Залиште свої дані, ми вам передзвонимо</strong
       >
       <div
@@ -337,7 +337,12 @@
         aria-labelledby="modal__form"
       >
         <div class="modal__form--field">
-          <label class="modal__form--label" for="name">Ім'я</label>
+          <label
+            class="modal__form--label"
+            for="name"
+            data-lang="modal-input-name"
+            >Ім'я</label
+          >
           <input
             type="text"
             name="name"
@@ -352,7 +357,12 @@
         </div>
 
         <div class="modal__form--field">
-          <label for="tel" class="modal__form--label">Телефон</label>
+          <label
+            for="tel"
+            class="modal__form--label"
+            data-lang="modal-input-phone"
+            >Телефон</label
+          >
           <input
             type="tel"
             name="tel"
@@ -367,7 +377,12 @@
         </div>
 
         <div class="modal__form--field">
-          <label for="email" class="modal__form--label">Пошта</label>
+          <label
+            for="email"
+            class="modal__form--label"
+            data-lang="modal-input-mail"
+            >Пошта</label
+          >
           <input
             type="email"
             name="email"
@@ -395,7 +410,7 @@
                 <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
               </svg>
 
-              <span>родич</span>
+              <span data-lang="modal-select-parent">родич</span>
             </label>
           </div>
           <div class="modal__form--checkbox">
@@ -411,7 +426,7 @@
                 <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
               </svg>
 
-              <span>клієнт</span>
+              <span data-lang="modal-select-client">клієнт</span>
             </label>
           </div>
           <div class="modal__form--checkbox">
@@ -427,18 +442,23 @@
                 <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
               </svg>
 
-              <span>фахівець</span>
+              <span data-lang="modal-select-specialist">фахівець</span>
             </label>
           </div>
         </div>
 
         <div class="modal__form--field">
-          <label for="comment" class="modal__form--label">Коментар</label>
+          <label
+            for="comment"
+            class="modal__form--label"
+            data-lang="modal-input-comment"
+            >Коментар</label
+          >
           <textarea
             name="comment"
             id="comment"
             class="form__input--comment"
-            placeholder="Введіть текст"
+            placeholder="Text"
           ></textarea>
         </div>
       </div>
@@ -457,11 +477,19 @@
             <use href="/psychabiliti/icons/sprite.svg#icon-check"></use>
           </svg>
 
-          <span>Погоджуюся на обробку моїх персональних даних</span>
+          <span data-lang="modal-check-agree"
+            >Погоджуюся на обробку моїх персональних даних</span
+          >
         </label>
       </div>
 
-      <button type="submit" disabled class="modal__form--btn" data-submit-btn>
+      <button
+        type="submit"
+        disabled
+        class="modal__form--btn"
+        data-submit-btn
+        data-lang="modal-submit-btn"
+      >
         Відправити
       </button>
     </form>
