@@ -166,6 +166,46 @@ export const teamPageTexts = {
     uk: 'Питання',
     en: 'FAQ',
   },
+  'modal-title': {
+    uk: 'Залиште свої дані, ми вам передзвонимо',
+    en: 'Leave your details, we will call you back',
+  },
+  'modal-input-name': {
+    uk: "Ім'я",
+    en: 'Name',
+  },
+  'modal-input-phone': {
+    uk: 'Телефон',
+    en: 'Phone',
+  },
+  'modal-input-mail': {
+    uk: 'Пошта',
+    en: 'E-mail',
+  },
+  'modal-select-parent': {
+    uk: 'родич',
+    en: 'parent',
+  },
+  'modal-select-client': {
+    uk: 'клієнт',
+    en: 'client',
+  },
+  'modal-select-specialist': {
+    uk: 'фахівець',
+    en: 'specialist',
+  },
+  'modal-input-comment': {
+    uk: 'Коментар',
+    en: 'Comment',
+  },
+  'modal-check-agree': {
+    uk: 'Погоджуюся на обробку моїх персональних даних',
+    en: 'I agree to the processing of my personal data',
+  },
+  'modal-submit-btn': {
+    uk: 'Відправити',
+    en: 'Submit',
+  },
   'team-hero-title': {
     uk: 'Наша команда',
     en: 'Our Team',
@@ -213,6 +253,46 @@ export const partnershipPageTexts = {
     uk: 'Питання',
     en: 'FAQ',
   },
+  'modal-title': {
+    uk: 'Залиште свої дані, ми вам передзвонимо',
+    en: 'Leave your details, we will call you back',
+  },
+  'modal-input-name': {
+    uk: "Ім'я",
+    en: 'Name',
+  },
+  'modal-input-phone': {
+    uk: 'Телефон',
+    en: 'Phone',
+  },
+  'modal-input-mail': {
+    uk: 'Пошта',
+    en: 'E-mail',
+  },
+  'modal-select-parent': {
+    uk: 'родич',
+    en: 'parent',
+  },
+  'modal-select-client': {
+    uk: 'клієнт',
+    en: 'client',
+  },
+  'modal-select-specialist': {
+    uk: 'фахівець',
+    en: 'specialist',
+  },
+  'modal-input-comment': {
+    uk: 'Коментар',
+    en: 'Comment',
+  },
+  'modal-check-agree': {
+    uk: 'Погоджуюся на обробку моїх персональних даних',
+    en: 'I agree to the processing of my personal data',
+  },
+  'modal-submit-btn': {
+    uk: 'Відправити',
+    en: 'Submit',
+  },
   'partnership-hero-title': {
     uk: 'Партнерство',
     en: 'Partnership',
@@ -259,6 +339,46 @@ export const newsPageTexts = {
   'nav-link-question': {
     uk: 'Питання',
     en: 'FAQ',
+  },
+  'modal-title': {
+    uk: 'Залиште свої дані, ми вам передзвонимо',
+    en: 'Leave your details, we will call you back',
+  },
+  'modal-input-name': {
+    uk: "Ім'я",
+    en: 'Name',
+  },
+  'modal-input-phone': {
+    uk: 'Телефон',
+    en: 'Phone',
+  },
+  'modal-input-mail': {
+    uk: 'Пошта',
+    en: 'E-mail',
+  },
+  'modal-select-parent': {
+    uk: 'родич',
+    en: 'parent',
+  },
+  'modal-select-client': {
+    uk: 'клієнт',
+    en: 'client',
+  },
+  'modal-select-specialist': {
+    uk: 'фахівець',
+    en: 'specialist',
+  },
+  'modal-input-comment': {
+    uk: 'Коментар',
+    en: 'Comment',
+  },
+  'modal-check-agree': {
+    uk: 'Погоджуюся на обробку моїх персональних даних',
+    en: 'I agree to the processing of my personal data',
+  },
+  'modal-submit-btn': {
+    uk: 'Відправити',
+    en: 'Submit',
   },
   'news-hero-title': {
     uk: 'Новини',
@@ -311,6 +431,46 @@ export const projectsPageTexts = {
     uk: 'Питання',
     en: 'FAQ',
   },
+  'modal-title': {
+    uk: 'Залиште свої дані, ми вам передзвонимо',
+    en: 'Leave your details, we will call you back',
+  },
+  'modal-input-name': {
+    uk: "Ім'я",
+    en: 'Name',
+  },
+  'modal-input-phone': {
+    uk: 'Телефон',
+    en: 'Phone',
+  },
+  'modal-input-mail': {
+    uk: 'Пошта',
+    en: 'E-mail',
+  },
+  'modal-select-parent': {
+    uk: 'родич',
+    en: 'parent',
+  },
+  'modal-select-client': {
+    uk: 'клієнт',
+    en: 'client',
+  },
+  'modal-select-specialist': {
+    uk: 'фахівець',
+    en: 'specialist',
+  },
+  'modal-input-comment': {
+    uk: 'Коментар',
+    en: 'Comment',
+  },
+  'modal-check-agree': {
+    uk: 'Погоджуюся на обробку моїх персональних даних',
+    en: 'I agree to the processing of my personal data',
+  },
+  'modal-submit-btn': {
+    uk: 'Відправити',
+    en: 'Submit',
+  },
   'projects-hero-title': {
     uk: 'Проєкти',
     en: 'Projects',
@@ -361,6 +521,46 @@ export const faqPageTexts = {
   'nav-link-question': {
     uk: 'Питання',
     en: 'FAQ',
+  },
+  'modal-title': {
+    uk: 'Залиште свої дані, ми вам передзвонимо',
+    en: 'Leave your details, we will call you back',
+  },
+  'modal-input-name': {
+    uk: "Ім'я",
+    en: 'Name',
+  },
+  'modal-input-phone': {
+    uk: 'Телефон',
+    en: 'Phone',
+  },
+  'modal-input-mail': {
+    uk: 'Пошта',
+    en: 'E-mail',
+  },
+  'modal-select-parent': {
+    uk: 'родич',
+    en: 'parent',
+  },
+  'modal-select-client': {
+    uk: 'клієнт',
+    en: 'client',
+  },
+  'modal-select-specialist': {
+    uk: 'фахівець',
+    en: 'specialist',
+  },
+  'modal-input-comment': {
+    uk: 'Коментар',
+    en: 'Comment',
+  },
+  'modal-check-agree': {
+    uk: 'Погоджуюся на обробку моїх персональних даних',
+    en: 'I agree to the processing of my personal data',
+  },
+  'modal-submit-btn': {
+    uk: 'Відправити',
+    en: 'Submit',
   },
   'faq-hero-title': {
     uk: 'Питання - Відповідь',
