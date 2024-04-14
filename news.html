@@ -11,8 +11,8 @@
     <meta name="description" content="News" />
     <meta name="keyword" content="News" />
     <script type="module" crossorigin src="/psychabiliti/assets/vendor-c0aca9b6.js"></script>
-    <script type="module" crossorigin src="/psychabiliti/assets/modal-3826e2f5.js"></script>
-    <link rel="stylesheet" href="/psychabiliti/assets/modal-dafff903.css">
+    <script type="module" crossorigin src="/psychabiliti/assets/modal-5dd4e28a.js"></script>
+    <link rel="stylesheet" href="/psychabiliti/assets/modal-253f0f16.css">
     <link rel="stylesheet" href="/psychabiliti/assets/vendor-b1ef7476.css">
   </head>
   <body>
@@ -40,16 +40,25 @@
         aria-label="choise language"
         data-language-btn
       >
-        <picture class="header__language--img" data-language-img data-lang="en">
-          <source srcset="/psychabiliti/images/ua-flag.webp" type="image/webp" />
-          <source srcset="/psychabiliti/images/ua-flag.png" type="image/png" />
-          <img src="/psychabiliti/images/ua-flag.png" alt="UA" width="30" height="30" />
-        </picture>
-        <picture class="header__language--img" data-language-img data-lang="uk">
-          <source srcset="/psychabiliti/images/usa-flag.webp" type="image/webp" />
-          <source srcset="/psychabiliti/images/usa-flag.png" type="image/png" />
-          <img src="/psychabiliti/images/usa-flag.png" alt="EN" width="30" height="30" />
-        </picture>
+        <svg
+          width="50"
+          height="50"
+          class="header__language--img"
+          data-language-img
+          data-lang="en"
+        >
+          <use href="/psychabiliti/icons/sprite.svg#icon-en"></use>
+        </svg>
+
+        <svg
+          width="50"
+          height="50"
+          class="header__language--img"
+          data-language-img
+          data-lang="uk"
+        >
+          <use href="/psychabiliti/icons/sprite.svg#icon-ua"></use>
+        </svg>
       </button>
     </div>
   </div>
