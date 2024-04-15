@@ -71,6 +71,14 @@ export const homePageTexts = {
     uk: 'Відправити',
     en: 'Submit',
   },
+  'home-hero-title': {
+    uk: 'Київська громадська організація «PSYCHABILITI»',
+    en: 'Kyiv public organization "PSYCHABILITY"',
+  },
+  'home-hero-desc': {
+    uk: 'Практичний досвід реабілітації людей з тяжкими психічними порушеннями',
+    en: 'Practical experience of rehabilitation of people with severe mental disorders',
+  },
   'about-title': {
     uk: 'Про нас',
     en: 'About us',
