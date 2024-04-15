@@ -1,6 +1,13 @@
-.team__hero--title-wrapper {
-  padding: var(--padding-hero);
+.team__hero {
+  padding: clamp(5rem, 4.107rem + 4.46vw, 6.25rem) 0
+    clamp(1.875rem, 0.982rem + 4.46vw, 3.125rem) 0; /* 80 - 100, 30 - 50 */
 
+  @media screen and (min-width: 768px) {
+    padding-top: clamp(9.375rem, 6.458rem + 6.08vw, 13.75rem); /* 150 - 220 */
+  }
+}
+
+.team__hero--title-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;

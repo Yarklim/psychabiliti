@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
 
-  padding-top: clamp(3rem, 2.374rem + 3.13vw, 3.875rem); /* 48 - 62*/
+  padding-top: clamp(2.625rem, 1.732rem + 4.46vw, 3.875rem); /* 42 - 62*/
 
   @media screen and (min-width: 768px) {
     padding-top: clamp(6.25rem, 3.333rem + 6.08vw, 10.625rem); /* 100 - 170 */
