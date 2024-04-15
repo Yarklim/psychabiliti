@@ -32,6 +32,7 @@
 .header__logo {
   font-size: var(--main-title-size);
   font-weight: 700;
+  line-height: 1;
 }
 
 /* =========== User Action ========== */
@@ -105,33 +106,85 @@
 }
 
 /* ========== Mobile Menu =========== */
-.burger-menu {
+.mob-menu {
+  display: block;
+
+  cursor: pointer;
+
+  & .menu-bar {
+    display: block;
+  }
+
+  & .menu-close {
+    display: none;
+  }
+
+  &.is-open .menu-bar {
+    display: none;
+  }
+  &.is-open .menu-close {
+    display: block;
+  }
+
   @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
+.mob-menu__icon {
+  width: var(--main-title-size);
+  height: var(--main-title-size);
+
+  fill: var(--light-color);
+}
+
 /* =========== Navigation =========== */
 .header__nav {
-  width: 100%;
+  width: clamp(18.75rem, 14.286rem + 22.32vw, 25rem); /* 300 - 400 */
 
-  display: none;
+  position: absolute;
+  top: clamp(3.625rem, 3.098rem + 2.63vw, 4.362rem); /* 58 - 69.8 */
+  right: -100%;
+
+  transition: right 0.3s ease;
+
+  &.menu-open {
+    right: 0;
+  }
 
   @media screen and (min-width: 768px) {
+    width: 100%;
+
     display: block;
+
+    position: static;
   }
 }
 
 .header__nav--list {
-  width: 100%;
-
   display: flex;
-  justify-content: space-between;
-  column-gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px 0; /* 20 - */
 
-  padding: var(--padding-header-nav);
+  padding: clamp(1.875rem, 1.429rem + 2.23vw, 2.5rem); /* 30 - 40 */
 
-  background: var(--soft-blue-background);
+  border-bottom-left-radius: 10px;
+  background: var(--body-background);
+  box-shadow: var(--main-shadow);
+
+  @media screen and (min-width: 768px) {
+    width: 100%;
+
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+
+    padding: var(--padding-header-nav);
+
+    border-bottom-left-radius: 0;
+    background: var(--soft-blue-background);
+  }
 }
 
 .header__nav-link {
@@ -140,15 +193,24 @@
   font-family: var(--extra-paragraph-font);
   font-size: var(--links-nav-size-mob);
   text-transform: uppercase;
-  color: var(--light-color);
+  color: var(--dark-color);
 
   transition: color 0.3s ease;
 
-  &:is(:hover, :focus, .active-page) {
-    color: var(--yellow-color);
+  &.active-page {
+    color: var(--soft-blue-color);
   }
 
   @media screen and (min-width: 768px) {
+    padding: 10px 0;
+
     font-size: var(--links-nav-size-desk);
+    color: var(--light-color);
+
+    transition: color 0.3s ease;
+
+    &:is(:hover, :focus, .active-page) {
+      color: var(--yellow-color);
+    }
   }
 }

@@ -4,10 +4,10 @@
   display: flex;
   justify-content: center;
 
-  padding-top: clamp(2.625rem, 1.732rem + 4.46vw, 3.875rem); /* 42 - 62*/
+  padding-top: clamp(3.625rem, 3.089rem + 2.68vw, 4.375rem); /* 58 - 70*/
 
   @media screen and (min-width: 768px) {
-    padding-top: clamp(6.25rem, 3.333rem + 6.08vw, 10.625rem); /* 100 - 170 */
+    padding-top: clamp(7.125rem, 4.917rem + 4.6vw, 10.438rem); /* 114 - 167 */
   }
 }
 

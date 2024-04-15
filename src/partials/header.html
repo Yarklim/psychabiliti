@@ -43,15 +43,18 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div class="burger-menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
+    <button class="mob-menu" data-mob-menu>
+      <svg width="70" height="70" class="mob-menu__icon menu-bar">
+        <use href="/icons/sprite.svg#icon-menu-bar"></use>
+      </svg>
+      <svg width="50" height="50" class="mob-menu__icon menu-close">
+        <use href="/icons/sprite.svg#icon-menu-close"></use>
+      </svg>
+    </button>
   </div>
 
   <!-- Navigation -->
-  <nav class="header__nav">
+  <nav class="header__nav" data-nav>
     <ul class="container header__nav--list">
       <li class="header__nav-item">
         <a
@@ -59,6 +62,7 @@
           class="header__nav-link active-page"
           data-lang="nav-link-main"
           data-page-home
+          data-mob-link
           aria-label="на Головну сторінку"
           >Головна</a
         >
@@ -70,6 +74,7 @@
           class="header__nav-link"
           data-lang="nav-link-team"
           data-page-team
+          data-mob-link
           aria-label="на секцію Команда"
           >Команда</a
         >
@@ -81,6 +86,7 @@
           class="header__nav-link"
           data-lang="nav-link-partnership"
           data-page-partnership
+          data-mob-link
           aria-label="на секцію Партнерство"
           >Партнерство</a
         >
@@ -92,6 +98,7 @@
           class="header__nav-link"
           data-lang="nav-link-news"
           data-page-news
+          data-mob-link
           aria-label="на секцію Новини"
           >Новини</a
         >
@@ -103,6 +110,7 @@
           class="header__nav-link"
           data-lang="nav-link-projects"
           data-page-projects
+          data-mob-link
           aria-label="на секцію Проєкти"
           >Проєкти</a
         >
@@ -114,6 +122,7 @@
           class="header__nav-link"
           data-lang="nav-link-question"
           data-page-faq
+          data-mob-link
           aria-label="на секцію Питання"
           >Питання</a
         >
