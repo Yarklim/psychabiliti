@@ -70,7 +70,7 @@ body {
 
   &:is(:hover, :focus-visible) {
     transform: scale(1.02);
-    background-color: #346794;
+    background-color: var(--dark-hover-background);
   }
 
   &:active {
