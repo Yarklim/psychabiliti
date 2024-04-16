@@ -58,7 +58,7 @@
 
   font-family: var(--main-title-font);
   font-size: var(--small-paragraph-size);
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1.5px;
   color: var(--soft-blue-background);
   text-transform: uppercase;
@@ -85,7 +85,7 @@
     }
 
     &:is(:hover, :focus-visible) {
-      background: var(--soft-blue-background);
+      background-color: var(--hover-background);
       color: var(--light-color);
     }
   }
@@ -116,7 +116,7 @@
     border: 2px solid var(--soft-blue-background);
 
     &:is(:hover, :focus-visible) {
-      background: var(--soft-blue-background);
+      background: var(--hover-background);
     }
   }
 

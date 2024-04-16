@@ -128,8 +128,8 @@
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:is(:hover, :focus, :checked) {
-    border: 1px solid var(--modal-accent-color);
+  &:is(:hover, :focus) {
+    border: 2px solid var(--modal-accent-color);
   }
 }
 
@@ -162,8 +162,8 @@
 
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:is(:hover, :focus, :checked) {
-    border: 1px solid var(--modal-accent-color);
+  &:is(:hover, :focus) {
+    border: 2px solid var(--modal-accent-color);
   }
 }
 

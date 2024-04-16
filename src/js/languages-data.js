@@ -31,6 +31,10 @@ export const homePageTexts = {
     uk: 'Питання',
     en: 'FAQ',
   },
+  'nav-link-contacts': {
+    uk: 'Контакти',
+    en: 'Contacts',
+  },
   'modal-title': {
     uk: 'Залиште свої дані, ми вам передзвонимо',
     en: 'Leave your details, we will call you back',
@@ -72,7 +76,7 @@ export const homePageTexts = {
     en: 'Submit',
   },
   'home-hero-title': {
-    uk: 'Київська громадська організація «PSYCHABILITI»',
+    uk: 'Київська громадська організація «ПСИХАБІЛІТІ»',
     en: 'Kyiv public organization "PSYCHABILITY"',
   },
   'home-hero-desc': {
@@ -136,7 +140,7 @@ export const homePageTexts = {
     en: 'Contacts',
   },
   'footer-signature': {
-    uk: 'Київська громадська організація "PSYCHABILITI"',
+    uk: 'Київська громадська організація "ПСИХАБІЛІТІ"',
     en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
@@ -173,6 +177,10 @@ export const teamPageTexts = {
   'nav-link-question': {
     uk: 'Питання',
     en: 'FAQ',
+  },
+  'nav-link-contacts': {
+    uk: 'Контакти',
+    en: 'Contacts',
   },
   'modal-title': {
     uk: 'Залиште свої дані, ми вам передзвонимо',
@@ -223,7 +231,7 @@ export const teamPageTexts = {
     en: 'Contacts',
   },
   'footer-signature': {
-    uk: 'Київська громадська організація "PSYCHABILITI"',
+    uk: 'Київська громадська організація "ПСИХАБІЛІТІ"',
     en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
@@ -260,6 +268,10 @@ export const partnershipPageTexts = {
   'nav-link-question': {
     uk: 'Питання',
     en: 'FAQ',
+  },
+  'nav-link-contacts': {
+    uk: 'Контакти',
+    en: 'Contacts',
   },
   'modal-title': {
     uk: 'Залиште свої дані, ми вам передзвонимо',
@@ -310,7 +322,7 @@ export const partnershipPageTexts = {
     en: 'Contacts',
   },
   'footer-signature': {
-    uk: 'Київська громадська організація "PSYCHABILITI"',
+    uk: 'Київська громадська організація "ПСИХАБІЛІТІ"',
     en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
@@ -347,6 +359,10 @@ export const newsPageTexts = {
   'nav-link-question': {
     uk: 'Питання',
     en: 'FAQ',
+  },
+  'nav-link-contacts': {
+    uk: 'Контакти',
+    en: 'Contacts',
   },
   'modal-title': {
     uk: 'Залиште свої дані, ми вам передзвонимо',
@@ -401,7 +417,7 @@ export const newsPageTexts = {
     en: 'Contacts',
   },
   'footer-signature': {
-    uk: 'Київська громадська організація "PSYCHABILITI"',
+    uk: 'Київська громадська організація "ПСИХАБІЛІТІ"',
     en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
@@ -438,6 +454,10 @@ export const projectsPageTexts = {
   'nav-link-question': {
     uk: 'Питання',
     en: 'FAQ',
+  },
+  'nav-link-contacts': {
+    uk: 'Контакти',
+    en: 'Contacts',
   },
   'modal-title': {
     uk: 'Залиште свої дані, ми вам передзвонимо',
@@ -492,7 +512,7 @@ export const projectsPageTexts = {
     en: 'Contacts',
   },
   'footer-signature': {
-    uk: 'Київська громадська організація "PSYCHABILITI"',
+    uk: 'Київська громадська організація "ПСИХАБІЛІТІ"',
     en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
@@ -529,6 +549,10 @@ export const faqPageTexts = {
   'nav-link-question': {
     uk: 'Питання',
     en: 'FAQ',
+  },
+  'nav-link-contacts': {
+    uk: 'Контакти',
+    en: 'Contacts',
   },
   'modal-title': {
     uk: 'Залиште свої дані, ми вам передзвонимо',
@@ -578,8 +602,12 @@ export const faqPageTexts = {
     uk: 'Контакти',
     en: 'Contacts',
   },
+  'footer-contacts-title': {
+    uk: 'Контакти',
+    en: 'Contacts',
+  },
   'footer-signature': {
-    uk: 'Київська громадська організація "PSYCHABILITI"',
+    uk: 'Київська громадська організація "ПСИХАБІЛІТІ"',
     en: 'Kyiv public organization "PSYCHABILITY"',
   },
 };
