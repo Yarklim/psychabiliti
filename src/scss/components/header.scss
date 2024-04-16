@@ -85,7 +85,7 @@
     }
 
     &:is(:hover, :focus-visible) {
-      background-color: var(--hover-background);
+      background-color: var(--dark-hover-background);
       color: var(--light-color);
     }
   }
@@ -108,15 +108,13 @@
   border: 1px solid var(--light-color);
   background-color: transparent;
 
-  transition: background-color 0.3s ease-in-out;
-
   @media screen and (min-width: 768px) {
     margin-right: 0;
 
     border: 2px solid var(--soft-blue-background);
 
-    &:is(:hover, :focus-visible) {
-      background: var(--hover-background);
+    &:is(:hover, :focus-visible) .header__language--img {
+      transform: scale(1.2);
     }
   }
 
@@ -124,6 +122,8 @@
     width: 80%;
 
     display: none;
+
+    transition: transform 0.3s ease-in-out;
 
     &.active-lang {
       display: block;

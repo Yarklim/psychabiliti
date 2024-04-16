@@ -44,8 +44,9 @@
 .footer__nav-link {
   font-family: var(--extra-paragraph-font);
   font-size: var(--links-nav-size-mob);
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: var(--gray-light-color);
+  color: var(--light-color);
 
   &:is(:hover, :focus, .active-page) {
     color: var(--yellow-color);
