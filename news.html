@@ -10,8 +10,8 @@
 
     <meta name="description" content="News" />
     <meta name="keyword" content="News" />
-    <script type="module" crossorigin src="/psychabiliti/assets/modal-3394fea5.js"></script>
-    <link rel="stylesheet" href="/psychabiliti/assets/modal-435fd173.css">
+    <script type="module" crossorigin src="/psychabiliti/assets/modal-d60661d6.js"></script>
+    <link rel="stylesheet" href="/psychabiliti/assets/modal-2064efba.css">
   </head>
   <body>
     <div class="page__wrapper">
@@ -190,14 +190,14 @@
         <div class="container news__list">
   <form class="news__search">
     <input type="text" placeholder="Search..." class="news__search--input" />
-    <button type="submit" class="news__search--btn">
+    <button type="submit" class="news__search--btn" aria-label="пошук новини">
       <svg width="30" height="30" class="cards__icon">
         <use href="/psychabiliti/icons/sprite.svg#icon-search"></use>
       </svg>
     </button>
   </form>
-  <ul class="news__list--wrapper">
-    <li class="news__item--wrapper">
+  <div class="news__list--wrapper">
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 1</h2>
       <span class="news__date">11/04/2024</span>
       <p class="main__paragraph news__text">
@@ -209,9 +209,10 @@
         modi! Ipsum, doloribus. Voluptas similique voluptatem laudantium a
         dicta.
       </p>
-      <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+      <a href="/news-item.html?id=123" target="_blank">Читати далі...</a>
+      <!-- <span class="news__more" data-lang="news-read-more">Читати далі...</span> -->
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 2</h2>
       <span class="news__date">05/04/2024</span>
       <p class="main__paragraph news__text">
@@ -224,8 +225,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 3</h2>
       <span class="news__date">02/04/2024</span>
       <p class="main__paragraph news__text">
@@ -238,8 +239,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 4</h2>
       <span class="news__date">29/03/2024</span>
       <p class="main__paragraph news__text">
@@ -252,8 +253,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 5</h2>
       <span class="news__date">20/03/2024</span>
       <p class="main__paragraph news__text">
@@ -266,8 +267,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 6</h2>
       <span class="news__date">14/03/2024</span>
       <p class="main__paragraph news__text">
@@ -280,8 +281,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 7</h2>
       <span class="news__date">03/03/2024</span>
       <p class="main__paragraph news__text">
@@ -294,8 +295,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 8</h2>
       <span class="news__date">23/02/2024</span>
       <p class="main__paragraph news__text">
@@ -308,8 +309,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 9</h2>
       <span class="news__date">15/02/2024</span>
       <p class="main__paragraph news__text">
@@ -322,8 +323,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-    <li class="news__item--wrapper">
+    </article>
+    <article class="news__item--wrapper">
       <h2 class="secondary__title news__title">Заголовок новини - 10</h2>
       <span class="news__date">11/02/2024</span>
       <p class="main__paragraph news__text">
@@ -336,8 +337,8 @@
         dicta.
       </p>
       <span class="news__more" data-lang="news-read-more">Читати далі...</span>
-    </li>
-  </ul>
+    </article>
+  </div>
 </div>
 
       </main>
@@ -472,7 +473,12 @@
       </svg>
     </button>
 
-    <form class="modal__form" name="registration-form" id="modal__form">
+    <form
+      method="post"
+      class="modal__form"
+      name="registration-form"
+      id="modal__form"
+    >
       <strong class="modal__form--title" data-lang="modal-title"
         >Залиште свої дані, ми вам передзвонимо</strong
       >
