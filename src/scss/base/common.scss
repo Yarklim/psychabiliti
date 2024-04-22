@@ -66,11 +66,10 @@ body {
   background-color: var(--soft-blue-background);
   box-shadow: var(--main-shadow);
 
-  transition: background-color, transform 0.3s ease-in-out;
+  transition: filter, transform 0.3s ease-in-out;
 
   &:is(:hover, :focus-visible) {
-    transform: scale(1.02);
-    background-color: var(--dark-hover-background);
+    filter: brightness(1.2);
   }
 
   &:active {
