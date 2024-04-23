@@ -66,7 +66,7 @@ body {
   text-transform: uppercase;
 
   border-radius: 6px;
-  background-color: var(--soft-blue-background);
+  background: var(--soft-blue-background);
   box-shadow: var(--main-shadow);
 
   overflow: hidden;
@@ -83,7 +83,7 @@ body {
     width: 0%;
     height: 100%;
 
-    background: var(--yellow-background);
+    background: var(--body-background);
 
     transition: 0.3s ease;
   }
