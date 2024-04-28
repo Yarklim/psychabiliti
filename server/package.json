@@ -2,7 +2,7 @@
   "name": "psychabiliti",
   "version": "1.0.0",
   "description": "psychabiliti backend",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./server.js",

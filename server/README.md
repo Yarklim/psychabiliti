@@ -1,4 +1,4 @@
-# Starting Template for backend  
+# Psychabiliti backend 
 Node JS - Express - Mongo DB  
 Type: ES6-module  
 ## Dependencies:
